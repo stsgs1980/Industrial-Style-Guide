@@ -7,11 +7,36 @@
 ![TypeScript](https://img.shields.io/badge/TypeScript-5-blue)
 ![Tailwind CSS](https://img.shields.io/badge/Tailwind-4-38B2AC)
 
-## 🎯 О проекте
+
+## Table of Contents
+
+- [О проекте](#о-проекте)
+- [Возможности](#возможности)
+- [Быстрый старт](#быстрый-старт)
+- [Клонирование](#клонирование)
+- [Установка](#установка)
+- [Запуск](#запуск)
+- [Структура сайта](#структура-сайта)
+- [Категории стилей](#категории-стилей)
+- [ТОП-5 для UI](#топ-5-для-ui)
+- [Ключевые понятия](#ключевые-понятия)
+- [Технологии](#технологии)
+- [Структура проекта](#структура-проекта)
+- [Скрипты](#скрипты)
+- [Стандарт воспроизводимости](#стандарт-воспроизводимости)
+- [Скриншоты](#скриншоты)
+- [Лицензия](#лицензия)
+- [Автор](#автор)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Getting Started](#getting-started)
+- [License](#license)
+
+## О проекте
 
 Справочник по визуальным стилям технической иллюстрации — от инженерных чертежей до современного UI дизайна. Помогает дизайнерам и инженерам выбрать подходящий стиль для своих проектов.
 
-## ✨ Возможности
+## Возможности
 
 - **31 стиль** с визуальными примерами
 - **6 категорий**: Технические, Карандашные, Минималистичные, Архитектурные, Винтажные, Цифровые
@@ -19,25 +44,25 @@
 - **Модальный просмотр** изображений
 - **ТОП-5 стилей для UI** с рейтингом
 
-## 🚀 Быстрый старт
+## Быстрый старт
 
 ```bash
-# Клонирование
+## Клонирование
 git clone https://github.com/Sts8987/Industrial-Style-Guide.git
 cd Industrial-Style-Guide
 
-# Установка
+## Установка
 bun install
 
-# Запуск
+## Запуск
 bun run dev
 ```
 
 Откройте [http://localhost:3000](http://localhost:3000) в браузере.
 
-## 📐 Структура сайта
+## Структура сайта
 
-```
+```bash
 ┌─────────────────────────────────────┐
 │  HERO — Индустриальный Минимализм   │
 ├─────────────────────────────────────┤
@@ -60,9 +85,9 @@ bun run dev
 └─────────────────────────────────────┘
 ```
 
-## 🎨 Категории стилей
+## Категории стилей
 
-### 📐 Технические (6)
+### Технические (6)
 - Blueprint (Синий чертёж)
 - Technical Drawing
 - Isometric
@@ -70,7 +95,7 @@ bun run dev
 - Patent Drawing
 - Architectural Drawing
 
-### ✏️ Карандашные (6)
+### Карандашные (6)
 - Pencil Sketch
 - Charcoal
 - Ink Drawing
@@ -78,7 +103,7 @@ bun run dev
 - Graphite Realism
 - Conté Crayon
 
-### 🎯 Минималистичные (6)
+### Минималистичные (6)
 - Line Art
 - Minimalist Sketch
 - Monoline
@@ -86,26 +111,26 @@ bun run dev
 - Wireframe
 - Outline Drawing
 
-### 🏛️ Архитектурные (4)
+### Архитектурные (4)
 - Architectural Sketch
 - Construction Drawing
 - Schematic Drawing
 - Orthographic Projection
 
-### 📜 Винтажные (5)
+### Винтажные (5)
 - Vintage Technical
 - Engraving Style
 - Botanical Illustration
 - Scientific Diagram
 - Da Vinci Sketch
 
-### 🎨 Цифровые (4)
+### Цифровые (4)
 - Low Poly
 - Geometric Minimalism
 - Flat Design Technical
 - Dotted Drawing
 
-## 🏆 ТОП-5 для UI
+## ТОП-5 для UI
 
 | # | Стиль | Оценка | Применение |
 |---|-------|--------|------------|
@@ -115,7 +140,7 @@ bun run dev
 | 4 | Geometric Minimalism | 80% | Лендинги, hero |
 | 5 | Isometric | 75% | Инфографика |
 
-## 📖 Ключевые понятия
+## Ключевые понятия
 
 ### Чертёж vs Минимализм
 
@@ -130,7 +155,7 @@ bun run dev
 
 Это одно и то же. Professional document for manufacturing.
 
-## 🛠️ Технологии
+## Технологии
 
 - **Framework**: Next.js 16 (App Router)
 - **Language**: TypeScript 5
@@ -139,9 +164,9 @@ bun run dev
 - **Icons**: Lucide React
 - **Theme**: next-themes
 
-## 📁 Структура проекта
+## Структура проекта
 
-```
+```css
 src/
 ├── app/
 │   ├── page.tsx        — Главная страница
@@ -157,7 +182,7 @@ public/
 └── styles/             — Изображения стилей (37 файлов)
 ```
 
-## 🔧 Скрипты
+## Скрипты
 
 ```bash
 bun run dev      # Разработка (порт 3000)
@@ -167,7 +192,7 @@ bun run lint     # ESLint проверка
 bun run setup    # Инициализация проекта
 ```
 
-## 📋 Стандарт воспроизводимости
+## Стандарт воспроизводимости
 
 Проект соответствует [Z.ai Standard v1.0](https://z.ai):
 
@@ -175,12 +200,12 @@ bun run setup    # Инициализация проекта
 git clone + bun install + bun run dev = работает
 ```
 
-- ✅ `.env.example` создан
-- ✅ `.gitignore` по стандарту
-- ✅ Нет абсолютных путей
-- ✅ `package.json` v1.0.0 с `postinstall`
+- `.env.example` создан
+- `.gitignore` по стандарту
+- Нет абсолютных путей
+- `package.json` v1.0.0 с `postinstall`
 
-## 📸 Скриншоты
+## Скриншоты
 
 ### Светлая тема
 ![Light Theme](public/styles/industrial_minimalism_01.png)
@@ -188,14 +213,56 @@ git clone + bun install + bun run dev = работает
 ### Тёмная тема
 ![Dark Theme](public/styles/industrial_minimalism_02.png)
 
-## 📄 Лицензия
+## Лицензия
 
 MIT
 
-## 👤 Автор
+## Автор
 
 Created by [Z.ai](https://z.ai)
 
----
 
 **Industrial Style Guide** — выбери правильный стиль для своего проекта.
+
+
+## Features
+
+- Feature 1 - description
+- Feature 2 - description
+
+
+## Tech Stack
+
+- **Framework** - Next.js
+- **Language** - TypeScript
+- **Styling** - Tailwind CSS, CSS
+- **Libraries** - shadcn/ui
+- **Tools** - React
+
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js 20+ or Bun
+
+### Installation
+
+```bash
+git clone https://github.com/stsgs1980/Industrial-Style-Guide.git
+cd Industrial-Style-Guide
+bun install
+```
+
+### Run
+
+```bash
+bun run dev
+```
+
+## License
+
+[MIT](LICENSE)
+
+---
+Built with: Next.js + React + TypeScript + Tailwind CSS
